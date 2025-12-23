@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #020617;
+}
+
+.nav a {
+  color: #e5e7eb;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #38bdf8;
+}
+
+.page {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.project {
+  background: #020617;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
