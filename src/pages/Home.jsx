@@ -8,3 +8,7 @@ export default function Home() {
     </section>
   );
 }
+
+// export default function Home() {
+//   return <h1>HOME IS RENDERING</h1>;
+// }
