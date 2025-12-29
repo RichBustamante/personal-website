@@ -15,5 +15,10 @@
 // export default App;
 
 export default function App() {
-  return <h1>It works</h1>;
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>DEPLOYMENT WORKS</h1>
+      <p>If you see this, GitHub Pages is fine.</p>
+    </div>
+  );
 }
