@@ -5,7 +5,6 @@
   "description": "Richard Bustamante's personal website",
   "type": "module",
   "homepage": "https://richBustamante.github.io/personal-website/",
-  "main": "main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
