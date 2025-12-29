@@ -1,15 +1,19 @@
-import Home from "./pages/Home";
-import ModalRoutes from "./components/ModalRoutes";
-import NavBar from "./components/NavBar";
+// import Home from "./pages/Home";
+// import ModalRoutes from "./components/ModalRoutes";
+// import NavBar from "./components/NavBar";
 
-function App() {
-  return (
-    <>
-      <NavBar />
-      <Home />
-      <ModalRoutes />
-    </>
-  );
+// function App() {
+//   return (
+//     <>
+//       <NavBar />
+//       <Home />
+//       <ModalRoutes />
+//     </>
+//   );
+// }
+
+// export default App;
+
+export default function App() {
+  return <h1>It works</h1>;
 }
-
-export default App;
