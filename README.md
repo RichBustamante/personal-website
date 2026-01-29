@@ -1,6 +1,6 @@
 # Personal Website
 
-A modern, responsive Personal website built with React, showcasing projects, skills, and contact information through an elegant modal-based interface.
+A modern, responsive personal website built with React, showcasing projects, skills, and contact information through an elegant modal-based interface.
 
 ## Features
 
@@ -25,7 +25,8 @@ A modern, responsive Personal website built with React, showcasing projects, ski
 ```
 Personal-website/
 ├── public/
-│   └── Richard_Bustamante_Resume.pdf          
+│   └── Richard_Bustamante_Resume.pdf      
+│   └── tcnj-library.jpg    
 ├── src/
 │   ├── components/
 │   │   ├── modals/
@@ -70,32 +71,28 @@ cd personal-website
 npm install
 ```
 
-3. Add your resume:
-   - Place your resume PDF in the `public/` folder
-   - Name it `resume.pdf` or update the path in `src/components/Navbar.jsx`
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-5. Open your browser and visit `http://localhost:3000`
+4. Open your browser and visit `http://localhost:3000`
 
 ## Customization
 
-### Update Your Information
+### My Information
 
 1. **Personal Details** (`src/components/modals/AboutModal.jsx`):
-   - Update name, bio, skills, and philosophy
+   - Contains name, bio, skills, and philosophy
 
 2. **Projects** (`src/data/projects.js`):
-   - Add/edit your projects with title, description, tech stack, and URLs
+   - My projects with title, description, tech stack, and URLs
 
 3. **Contact Information** (`src/components/modals/ContactModal.jsx`):
-   - Update email, GitHub, and LinkedIn links
+   - My email, GitHub, and LinkedIn links
 
 4. **Hero Section** (`src/components/Hero.jsx`):
-   - Customize the headline and tagline
+   - Custom the headline and tagline
 
 ### Styling
 
@@ -134,7 +131,7 @@ npm run build
 # Drag and drop the 'dist' folder to Netlify
 ```
 
-### GitHub Pages
+### GitHub Pages (Where we are deploying)
 ```bash
 npm run build
 # Push the 'dist' folder to gh-pages branch
@@ -143,11 +140,10 @@ npm run build
 ## Resume Download Feature
 
 The resume download button in the navbar:
-- Looks for `resume.pdf` in the `public/` folder
+- Looks for `Richard_Bustamante_Resume.pdf` in the `public/` folder
 - Downloads the file when clicked
 - Can be customized in `src/components/Navbar.jsx`
 
-Make sure to place your actual resume PDF in the `public/` folder before deploying.
 
 ## Browser Support
 

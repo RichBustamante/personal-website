@@ -17,7 +17,17 @@ const ProjectsModal = ({ isOpen, onClose }) => {
                 <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
                 <p className="text-zinc-400 mb-4">{project.description}</p>
               </div>
-              <ExternalLink className="w-5 h-5 text-zinc-500 hover:text-white transition-colors cursor-pointer" />
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-zinc-500 hover:text-white transition-colors"
+                  title="View Live Project"
+                >
+                  <ExternalLink className="w-5 h-5" />
+                </a>
+              )}
             </div>
             
             <div className="flex flex-wrap gap-2">
@@ -31,11 +41,29 @@ const ProjectsModal = ({ isOpen, onClose }) => {
               ))}
             </div>
             
-            <div className="mt-4 pt-4 border-t border-zinc-700">
-              <button className="text-purple-400 hover:text-purple-300 transition-colors font-medium flex items-center gap-2">
-                <Github className="w-4 h-4" />
-                View on GitHub
-              </button>
+            <div className="mt-4 pt-4 border-t border-zinc-700 flex gap-4">
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300 transition-colors font-medium flex items-center gap-2"
+                >
+                  <Github className="w-4 h-4" />
+                  View on GitHub
+                </a>
+              )}
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-400 hover:text-indigo-300 transition-colors font-medium flex items-center gap-2"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  View Live Site
+                </a>
+              )}
             </div>
           </div>
         ))}

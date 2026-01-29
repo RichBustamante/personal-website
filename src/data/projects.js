@@ -8,6 +8,13 @@ export const projects = [
     liveUrl: "https://sancher6.github.io/personal_website/"
   },  
   {
+    title: "Common Helm Charts",
+    description: "Common Helm chart configurations. Right now contains tooling for Grafana Alloy, Grafana Loki, Grafana UI, Kafka Broker, Zookeeper, Splunk Universal Forwarder, and Splunk Enterprise.",
+    tech: ["Helm", "Grafana", "Splunk", "Kafka"],
+    gradient: "from-red-400 via-violet-500 to-purple-500",
+    githubUrl: "https://github.com/RichBustamante/common-charts",
+  },    
+  {
     title: "Autonomous Car",
     description: "Autonomous Car with Android-Based Control and Obstacle Avoidance",
     tech: ["Java", "Python", "C", "Android Studio"],
@@ -21,7 +28,6 @@ export const projects = [
     tech: ["Python", "Shell", "Discord", "pafy"],
     gradient: "from-cyan-400 via-blue-500 to-indigo-600",
     githubUrl: "https://github.com/sancher6/Groovier",
-    liveUrl: "https://example.com"
   },
   {
     title: "Dan Bot",
@@ -29,6 +35,5 @@ export const projects = [
     tech: ["Javascript", "SlackBot", "axios"],
     gradient: "from-purple-400 via-pink-500 to-rose-500",
     githubUrl: "https://github.com/sancher6/dan-bot",
-    liveUrl: "https://example.com"
   }
 ];
