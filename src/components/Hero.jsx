@@ -8,7 +8,7 @@ const Hero = ({ setActiveModal }) => {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black z-10" />
         <img 
-          src="/tcnj-library.jpg" 
+          src={`${import.meta.env.BASE_URL}tcnj-library.jpg`}
           alt="Background" 
           className="w-full h-full object-cover opacity-30"
         />
