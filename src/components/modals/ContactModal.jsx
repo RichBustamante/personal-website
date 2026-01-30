@@ -7,8 +7,8 @@ const ContactModal = ({ isOpen, onClose }) => {
     <Modal isOpen={isOpen} onClose={onClose} title="Get In Touch">
       <div className="space-y-6">
         <p className="text-lg text-zinc-300 leading-relaxed">
-          I'm always open to discussing new projects, creative ideas, or opportunities to be
-          part of your vision. Feel free to reach out through any of the channels below.
+          I'm always open to work, opportunities, discussing new projects, or creative 
+          ideas. Feel free to reach out through any of the channels below.
         </p>
         
         <div className="grid gap-4 mt-8">

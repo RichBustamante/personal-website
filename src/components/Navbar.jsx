@@ -5,7 +5,7 @@ const Navbar = ({ scrolled, setActiveModal }) => {
   const handleResumeDownload = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/Bustamante_Richard_Resume.pdf';
+    link.href = `${import.meta.env.BASE_URL}/Bustamante_Richard_Resume.pdf`;
     link.download = 'Bustamante_Richard_Resume.pdf';
     document.body.appendChild(link);
     link.click();
