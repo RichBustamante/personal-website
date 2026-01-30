@@ -73,8 +73,9 @@ const AboutModal = ({ isOpen, onClose }) => {
         <div className="pt-4 border-t border-zinc-800">
           <h4 className="text-lg font-semibold text-white mb-3">Philosophy</h4>
           <p className="italic text-zinc-400">
-            "Great code is not just functional—it's elegant, maintainable, and built with
-            the user's experience at the forefront of every decision."
+            "Most good programmers do programming not because they expect to get paid 
+            or get adulation by the public, but because it is fun to program." -Linus
+            Torvalds
           </p>
         </div>
       </div>
