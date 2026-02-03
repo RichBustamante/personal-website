@@ -8,20 +8,20 @@ export const projects = [
     liveUrl: "https://richbustamante.github.io/personal-website/"
   },      
   {
-    title: "Old Personal Website",
-    description: "Website deployed using github-pages using entirely HTML and CSS bootstrapped with Javascript",
-    tech: ["HTML", "CSS", "Javascript", "jQuery"],
-    gradient: "from-emerald-400 via-teal-500 to-cyan-500",
-    githubUrl: "https://github.com/sancher6/personal_website",
-    liveUrl: "https://sancher6.github.io/personal_website/"
-  },   
-  {
     title: "Common Helm Charts",
     description: "Common Helm chart configurations. Right now contains tooling for Grafana Alloy, Grafana Loki, Grafana UI, Kafka Broker, Zookeeper, Splunk Universal Forwarder, and Splunk Enterprise.",
     tech: ["Helm", "Grafana", "Splunk", "Kafka"],
     gradient: "from-red-400 via-violet-500 to-purple-500",
     githubUrl: "https://github.com/RichBustamante/common-charts",
   },    
+  {
+    title: "Mouse Tracker",
+    description: "A real-time mouse tracking system that captures mouse coordinates, sends them through Kafka, and displays them as dots on a web page.",
+    tech: ["Kafka", "KRaft", "Javascript", "HTML"],
+    gradient: "from-emerald-400 via-teal-500 to-cyan-500",
+    githubUrl: "https://github.com/RichBustamante/mouse-tracker",
+    liveUrl: "https://github.com/RichBustamante/mouse-tracker/blob/main/assets/result.gif"
+  },     
   {
     title: "Autonomous Car",
     description: "Autonomous Car with Android-Based Control and Obstacle Avoidance",
